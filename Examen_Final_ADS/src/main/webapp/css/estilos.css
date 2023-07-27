@@ -1,0 +1,98 @@
+@charset "ISO-8859-1"; body {
+  background-color: lightblue;
+  }
+ h1 {
+    color: Black; 
+    text-align: center; 
+    font-family: Klender;
+    font-size: 75px
+}
+#favorito {
+border: 1px solid black; 
+color: black;
+text-align: center; 
+}
+
+.destacado { 
+	font-weight: bold; 
+	color: black; 
+	text-align: Center;
+	font-family:'Poppins', sans-serif;
+}
+p{
+font-family: verdana; 
+font-size: 14px;
+  text-align: justify;
+}
+precio{
+	font-family: verdana;
+	font-weight: bold; 
+	color: black; 
+}
+header, nav, section, article, footer{
+      border:1px solid black;
+      
+       }
+header {
+background-color: #5f939a;
+ padding: 20px 10px;
+}
+nav {
+overflow: hidden; background-color: #d8ac9c; padding: 10px 5px;
+}
+.agrupar
+ {
+ border:0px; margin: auto; width:1000px;
+}
+section {
+      margin:40px;
+      width: 700px;
+      float:left;
+      background:gray;
+       }
+aside{
+margin: 20px;
+padding: 30px; 
+width:200px;
+border: 1px; 
+float:right; 
+background:gray; 
+align-items: center; 
+}
+footer {
+overflow: hidden; 
+background-color: #eac8af; 
+padding: 20px 10px; 
+text-align: center;
+clear :both;
+}
+footer li{
+list-style: none;
+font:bold 14px verdana; 
+padding: 10px; 
+display: inline-block; 
+}
+producto{
+	font-weight: bold; 
+	color: black;
+	text-align: center;
+}
+nav a {
+float: left;
+color: black;
+text-align: center; 
+padding: 12px; 
+text-decoration: underline; 
+font-size: 18px; 
+line-height: 25px; 
+border-radius: 4px;
+}
+nav a:hover { 
+	background-color: #ddd; 
+	border:1px solid gray; 
+	color: black;
+}
+nav a.active { 
+	background-color: dodgerblue;
+	border:1px solid gray;
+    color: white; }
